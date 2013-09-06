@@ -1,7 +1,7 @@
 print("Enter the first number: ")
-number1 = Integer(gets)
+number1 = Float(gets)
 print("Enter the second number: ")
-number2 = Integer(gets)
+number2 = Float(gets)
 print("Enter an operation (+,-,*,/): ")
 op = gets
 op = op.chomp
