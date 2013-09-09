@@ -1,8 +1,14 @@
-nums = [1,2,3,4,5]
+nums = [1,2,3,4,5,6,7,8,9,]
 #nums.each do |x|
 #	print x, "\n"
 #end
 
+#for num in nums
+#	print num, "\n"
+#end
+
+sum = 0
 for num in nums
-	print num, "\n"
+	sum += num
 end
+print sum
