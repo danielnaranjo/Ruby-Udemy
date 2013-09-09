@@ -2,6 +2,8 @@
 #	print "Hello, world\n"
 #end
 
+sum = 0
 1.upto(10)  do |x|
-	print x, " "
+	sum += x
 end
+print sum
