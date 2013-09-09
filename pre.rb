@@ -6,7 +6,7 @@ while (cont == 'y')
 	denom = Integer(gets)
 
 	if denom == 0 then
-		redo
+		break
 	end
 
 	puts(num/denom)
